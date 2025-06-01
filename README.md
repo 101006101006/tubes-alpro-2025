@@ -29,4 +29,18 @@ Menghentikan program secara aman.
 # Cara Menggunakan Program
 
 # Pembagian Tugas
+Neizshia:
+1. Input & Struktur Data
+2. Hitung Rata-Rata
+3. Pencarian Data (melalu Sequential Search dan Binary Search)
+4. Nilai Ektrim
 
+Farash
+1. Tampilan Menu Utama
+2. Pengurutan Data (Selection dan Insertion)
+3. Tampilan Data (tampilkan seluruh data siswa, tampilkan rata-rata tertinggi per-mapel, tampilkan data setelah pencarian)
+4. kontrol program (switch case, fungsi keluar dari program)
+
+kolaborasi:
+1. Diskusi format data siswa
+2. Review Akhir
