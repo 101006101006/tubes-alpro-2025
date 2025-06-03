@@ -26,7 +26,6 @@ Neizshia:
 1. inputDataBaru
 2. tampilSemuaData
 3. ubahDataTerdaftar
-4. hapusDataByNama
 5. sequentialSearch, sequentialSearchByNama
 6. binarySearchByNIS
 7. menu, clearScreen, kotakTemplate
@@ -36,3 +35,4 @@ Farash
 2. tampilNilaiMaksMinPerMapel, hitungRata
 3. selectionSortByNIS, selectionSortByMapel
 4. insertionSortByNama
+5. hapusDataByNama
