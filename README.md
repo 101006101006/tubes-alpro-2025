@@ -1,46 +1,38 @@
 # tubes-alpro-2025
 # Pendataan Nilai Ujian Siswa
 # Deskripsi
-Program ini dibuat menggunakan bahasa pemrograman Go untuk melakukan pendataan dan pengolahan nilai ujian siswa. Program ini mendata nilai dari empat jenis ujian — UH, UTS, UAS, dan UKK — untuk dua mata pelajaran: Matematika dan Bahasa Indonesia.
+Program ini dibuat menggunakan bahasa pemrograman Go untuk melakukan pendataan dan pengolahan nilai ujian siswa. Program ini mendata nilai dari empat jenis ujian — UH, UTS, UAS, dan UKK — untuk beberapa mata pelajaran.
 # Fitur-Fitur
-1. Tampilkan Semua Data
-Menampilkan seluruh data siswa termasuk:
-- NIS dan Nama
-- Nilai UH, UTS, UAS, dan UKK untuk Matematika & Bahasa Indonesia
-- Rata-rata nilai setiap siswa
-2. Tampilkan Rata-Rata Tertinggi per Mapel
-Menampilkan siswa dengan nilai rata-rata tertinggi untuk masing-masing mata pelajaran (Matematika & Bahasa Indonesia).
-3. Tampilkan Nilai Maksimum & Minimum per Mapel
-Menampilkan nilai tertinggi dan terendah untuk masing-masing jenis ujian di setiap mata pelajaran.
-4. Cari Data (Sequential Search berdasarkan Nama)
-Mencari data siswa berdasarkan nama menggunakan metode pencarian berurutan (sequential search).
-5. Cari Data (Binary Search berdasarkan NIS)
-Mencari data siswa berdasarkan NIS menggunakan metode binary search. (Data perlu diurutkan terlebih dahulu berdasarkan NIS.)
-6. Urutkan Data (Selection Sort berdasarkan Rata-rata)
-Mengurutkan seluruh data siswa berdasarkan rata-rata nilai menggunakan selection sort.
-7. Urutkan Data (Insertion Sort berdasarkan Nama)
-Mengurutkan seluruh data siswa berdasarkan nama menggunakan insertion sort.
-8. Tampilkan Data
-Menampilkan data tertentu (fitur ini bisa digunakan untuk menampilkan subset atau data terpilih).
-9. Keluar dari Program
-Menghentikan program secara aman.
+1. input Data Baru – Menambahkan data siswa baru lengkap dengan nilai UH, UTS, UAS, dan UKK.
+2. Tampilkan Semua Data – Menampilkan tabel semua data siswa yang tersimpan.
+3. Ubah Data Terdaftar – Mengubah data siswa berdasarkan pencarian nama.
+4. Hapus Data Berdasarkan Nama – Menghapus data siswa berdasarkan nama.
+5. Tampilkan Rata-Rata Nilai Siswa per Mapel – Menampilkan rata-rata nilai untuk satu siswa dan mapel tertentu.
+6. Tampilkan Nilai Maksimum & Minimum per Mapel – Menampilkan siswa dengan nilai rata-rata tertinggi dan terendah di mapel tertentu.
+7. Cari Data (Sequential Search berdasarkan Nama) – Mencari siswa berdasarkan nama.
+8. Cari Data (Binary Search berdasarkan NIS) – Mencari siswa berdasarkan NIS setelah data diurutkan.
+9. Urutkan Data berdasarkan Mata Pelajaran (Selection Sort) – Mengurutkan data siswa berdasarkan nama mapel.
+10. Urutkan Data berdasarkan Nama (Insertion Sort) – Mengurutkan data siswa berdasarkan nama.
+11. Keluar dari program – Menutup program.
 # Struktur Program
 
 # Cara Menggunakan Program
-
+1. Jalankan program.
+2. Pilih menu dengan memasukkan angka 1-10 sesuai fitur yang ingin digunakan.
+3. Ikuti instruksi input data (misalnya: NIS, nama siswa, nilai).
+4. Tekan Enter untuk kembali ke menu utama setelah selesai.
 # Pembagian Tugas
 Neizshia:
-1. Input & Struktur Data
-2. Hitung Rata-Rata
-3. Pencarian Data (melalu Sequential Search dan Binary Search)
-4. Nilai Ektrim
+1. inputDataBaru
+2. tampilSemuaData
+3. ubahDataTerdaftar
+4. hapusDataByNama
+5. sequentialSearch, sequentialSearchByNama
+6. binarySearchByNIS
+7. menu, clearScreen, kotakTemplate
 
 Farash
-1. Tampilan Menu Utama
-2. Pengurutan Data (Selection dan Insertion)
-3. Tampilan Data (tampilkan seluruh data siswa, tampilkan rata-rata tertinggi per-mapel, tampilkan data setelah pencarian)
-4. kontrol program (switch case, fungsi keluar dari program)
-
-kolaborasi:
-1. Diskusi format data siswa
-2. Review Akhir
+1. tampilRataRataSiswaPerMapel, hitungRataRataMapelUntukSiswa
+2. tampilNilaiMaksMinPerMapel, hitungRata
+3. selectionSortByNIS, selectionSortByMapel
+4. insertionSortByNama
