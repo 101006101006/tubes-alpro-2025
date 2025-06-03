@@ -26,9 +26,8 @@ Neizshia:
 1. inputDataBaru
 2. tampilSemuaData
 3. ubahDataTerdaftar
-5. sequentialSearch, sequentialSearchByNama
-6. binarySearchByNIS
-7. menu, clearScreen, kotakTemplate
+4. sequentialSearch, sequentialSearchByNama
+5. menu, clearScreen, kotakTemplate
 
 Farash
 1. tampilRataRataSiswaPerMapel, hitungRataRataMapelUntukSiswa
@@ -36,3 +35,4 @@ Farash
 3. selectionSortByNIS, selectionSortByMapel
 4. insertionSortByNama
 5. hapusDataByNama
+6. 6. binarySearchByNIS
